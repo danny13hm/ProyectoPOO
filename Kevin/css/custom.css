@@ -1,0 +1,49 @@
+
+.navbar { 
+    height: 40px;
+}
+.form-control {
+    border-radius:2px;
+    font-size :10px;
+    line-height:1.3333;
+    font-weight: 600;
+    height: 25px;
+    width: 216px;
+    display: inline-block;
+    margin: 10px 8px 10px 0;
+    border:1px solid #b3b6b9;
+    font-family: Arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.btn-success{
+    background-color: #283e4a;
+    border-width: 0.5px;
+    border-color: white;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin: 30px 10px 30px 0;
+    height: 25px;
+    line-height: 0px;
+    font-size: 13.5px;
+    box-sizing: border-box;
+}
+.btn-success:hover {
+    background-color: white;
+    border-color:white;
+    color: black;
+    box-sizing: border-box;
+}
+.link-forgot-password{
+    font-size: 10px;
+    color:white;
+    box-sizing: border-box;
+
+
+}
+.link-forgot-password:hover{
+    color:white;
+    font-weight: bold;
+
+}
