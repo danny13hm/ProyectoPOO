@@ -1,4 +1,5 @@
-#barra-navegar{
+#barra{
+
     padding: 0 30px;
     width: 100%;
     height: 52px;
@@ -8,20 +9,58 @@
     left: 0;
 }
 
-input {
-
-    height: 34px;
-    background-color: #e1e9ee;
-    margin-right: 12px;
-    top:0;
-    
+img{
+    width:32px; 
+    height:32px; 
+    position: fixed;
+    margin-top: 10px;  
+    margin-left: 20%;
+      
     
 }
 
-li{
+#barra input{
+
+    border-radius: 2px;
+    margin-top :13px;
+}
+
+#barra-navegar {
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 52px;
+    background-color: #283e4a;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+#barra-navegar ul{
+    list-style: none;  /* Elimina las viñetas de las lstas */
+    margin: 0;
+    padding: 0; 
+    display: inline-block;
    
-    display: inline;
-    top:10px;
+}
+
+#barra-navegar ul li {
+
+    display: inline-block; /* Los pone en posicion horizontal. */ 
+    
+}
+
+#barra-navegar ul li a{
+    color: white;
+    text-decoration: none; /* elimina el subrayado*/
+    display: block; /* se vuelven bloques*/
+    padding: 10px 10px;
+    
 }
 
 
