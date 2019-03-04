@@ -92,7 +92,7 @@ h2{
     font-weight: 2px;
     color: rgba(0,0,0,0.9);
 }
-h3{
+.reg-form h3{
         font-size: 2.4rem;
     line-height: 1.33333;
     font-weight: 400;
@@ -199,4 +199,243 @@ padding: 15px 0px 10px 200px;
     text-align: center;
     
 }
+.directory{
+    justify-content: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack:center;
+    height:45px;
+    padding:0 12px
+}
+.directory ol{
+    font-size: 10px;;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    font-weight: 300;
+    display: inline-block;
+    list-style: none;
+    padding: 2px 2px;
+    margin-bottom: 0;
+    
+}
+.directory .Title-directory{
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 200;
+    color: rgba(255,255,255,0.85);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    }
+.directory li{
+    padding-left: 5px;
+    display: inline;
 
+}
+.directory li a{
+    color:rgba(255,255,255,0.85); 
+    font-weight:600;
+}
+.Links-container{
+    font-size: 10px;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0 30px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.Links-container h3{
+    font-size: 11px;
+    line-height: 1.33333;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    margin: 0px 0 8px 4px;
+}
+.Links-container .links{
+    width: 48%;
+    margin-right: 2%;
+    margin-top: 30px;
+
+}
+.Links-container ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+}
+.Links-container li{
+    padding-right: 5px;
+    margin:2px 5px 0 0;
+    border-right: 1px solid rgba(255,255,255,0.55)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+.Links-container li a{
+    text-decoration: none;
+    background-color: transparent;
+    border:0;
+    font-weight: 400;
+    padding: 0 4px;
+    color:rgba(255,255,255,0.85);
+}
+.Links-container li a:Hover{
+    font-weight: 700;
+    color:white;
+    text-decoration-line: underline;
+}
+ul{
+    list-style: none;
+}
+.legal-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 940px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding: 3px 0px 8px 0px;
+    font-size: 10px;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    background-color: #434649;
+    margin: auto;
+}
+.legal-nav a:visited{
+    color:rgba(255,255,255,0.85);
+    font-weight: 500;
+}
+.legal-nav>ul{
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     padding: 10px 0;   
+}
+.legal-nav .copyright{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 20px 0 0;
+    color: rgba(255,255,255,0.85);
+
+}
+.legal-nav .copyright-logo{
+        margin: -3px 5px 0 0;
+        width: 56px;
+        height: 14px;
+
+}
+.legal-nav>ul>li:first-child{
+    margin: 0%;
+}
+.legal-nav>ul>li{
+    margin:0 0 0 20px;
+}
+.lang-selector-container{
+    position: relative;
+}
+#lang-selector-state{
+    display: none;
+}
+#languageSelectorForm{
+    display: none;
+}
+#lang-selector-state+label{
+    font-size: 10px;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    font-weight: 600;
+    padding-left: 0;
+}
+.lang-selector-state-label:focus{
+    outline: thin dotted;
+}
+#lang-selector-state:checked ~ #languageSelectorForm{
+    display: block;
+}
+.lang-selector-state-label:hover , .lang-selector-state-label:focus{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lang-selector-state-label{
+    cursor: pointer;
+    margin: 0;
+}
+.lang-selector{
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    padding: 5px;
+    min-width: 100px;
+    border: 1px solid #0073b1;
+    background: #fff;
+    z-index: 1;
+}
+
+.lang-selector .current .lang-selector button {
+    padding: 5px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.lang-selector button{
+    background: none;
+    border: none;
+    color: #0073b1;
+    height: 20px;
+    text-align: center;
+}
+.lang-selector button:hover{
+    background-color: #0073b1;
+    color:#fff;
+}
+.lang-selector li{
+    margin:0;
+    display: list-item;
+}
+.lang-selector .current, .lang-selector button{
+    padding: 5px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+.lang-selector .current{
+    color: #000;
+    font-weight: bold;
+}
+input[type="checkbox"], input[type="radio"]{
+    box-sizing: border-box;
+    padding: 0;
+}
