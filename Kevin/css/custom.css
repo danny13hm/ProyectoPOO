@@ -1,6 +1,7 @@
 .navbar{
     height: 40px;
     box-sizing: border-box;
+align-items: center;
 }
 #main-container{
     margin-top: 50px;
@@ -171,6 +172,7 @@ color:white;
 }
 .same-name-search{
 padding: 15px 0px 10px 200px;
+align-items:center;
 }
 .same-name-search input[type="text"]{
     border-radius:2px;
@@ -301,6 +303,7 @@ padding: 15px 0px 10px 200px;
 }
 ul{
     list-style: none;
+    margin-bottom:0;
 }
 .legal-nav{
     display: -webkit-box;
@@ -330,8 +333,14 @@ ul{
      -webkit-box-pack: center;
      -ms-flex-pack: center;
      justify-content: center;
-     padding: 10px 0;   
+     padding: 10px 0 10px 5px;
 }
+.legal-nav a{
+    color:rgba(255,255,255,0.85);
+    background-color: transparent;
+    font-weight: 500;
+}
+       
 .legal-nav .copyright{
     display: -webkit-box;
     display: -ms-flexbox;
