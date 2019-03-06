@@ -211,9 +211,9 @@
                         </li>
                         <li class="lang-selector-container">
                             <input type="checkbox" id="lang-selector-state" name="lang-selector-state" dir="ltr">
-                            <label for="lang-selector-state" class="lang-selector-state-label" tabindex="0" role="button" aria-expanded="true">Idioma</label>
+                            <label id="selector" for="lang-selector-state" class="lang-selector-state-label" tabindex="0" role="button" aria-expanded="false">Idioma</label>
                             <form name="languageSelectorForm" id="languageSelectorForm" action="/languageSelector" method="POST">
-                                <ul class="lang-selector">
+                                <ul id="caja" class="lang-selector">
                                     <li><button data-locale="in_ID">Bahasa Indonesia</button></li>
                                     <li><button data-locale="ms_MY">Bahasa Malaysia</button></li>
                                     <li><button data-locale="cs_CZ">Čeština</button></li>
@@ -249,6 +249,18 @@
         </main>
     </div>
     <script src="js/jquery-3.3.1.min.js"></script> 
+    <script>//Funcion Investigada
+    $(document).ready(function () {
+    $(document).on('mouseup', function(e){
+    const container = $("#lang-selector-state");
+    if(!container.is(e.target) && container.has(e.target).length === 0) {
+      $('#caja').hide('slide');} });
+      $('#lang-selector-state').on('click', function () {
+      $('#caja').show('slide');
+     });
+    });
+    </script>
     <script src="js/bootstrap.js"></script>
+
 </body>
 </html>
