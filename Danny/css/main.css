@@ -33,19 +33,22 @@ body{
     margin: 0; 
     padding: 0; 
     display: inline-block; /*poner en horizontal la listas*/ 
-   
+    
+    
 }
 
 #icono{
     height: 32.6px;
     width: 32.6px;
-    vertical-align: middle;    
+    vertical-align: middle; 
+       
 }
 
 #txt-buscar{
     border-radius: 2px;
     margin-top :13px;
     box-sizing: border-box;
+    
 }
 
 #icono-inicio{
@@ -57,7 +60,7 @@ body{
 
 
 #ul-barra-navegar li{
-    display: inline-block; /* Los pone en posicion horizontal. */     
+    display: inline-block; /* Los pone en posicion horizontal. */       
 }
 
 .nav-a{
@@ -65,7 +68,7 @@ body{
     text-decoration: none; /* elimina el subrayado*/
     display: block; /* se vuelven bloques*/
     padding: 10px 10px;
-  
+    
 
 }
 
