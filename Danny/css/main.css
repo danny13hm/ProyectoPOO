@@ -20,11 +20,10 @@ body{
 
 #barra-navegar {
     
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
     height: 52px;
     background-color: #283e4a;
+    float: right;
     
 }
 
@@ -37,30 +36,10 @@ body{
     
 }
 
-#icono{
-    height: 32.6px;
-    width: 32.6px;
-    vertical-align: middle; 
-       
-}
-
-#txt-buscar{
-    border-radius: 2px;
-    margin-top :13px;
-    box-sizing: border-box;
-    
-}
-
-#icono-inicio{
-    fill:#c7d1d8;
-    width:24px;
-    height:24px;
-    
-}
-
-
 #ul-barra-navegar li{
-    display: inline-block; /* Los pone en posicion horizontal. */       
+    display: inline-block; /* Los pone en posicion horizontal. */ 
+  
+    /*width: 70px;*/      
 }
 
 .nav-a{
@@ -72,6 +51,77 @@ body{
 
 }
 
+.iconos{
+    fill:#c7d1d8;
+    width:24px;
+    height:22px;
+    
+}
+
+.div-iconos{
+    height: 48px;width: 68px;background-color:transparent;
+}
+.nav-letras{
+    display:flex;position: fixed;font-size: 10pt;line-height: 5px;
+}
+
+.div-iconos:active{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.iconos:hover,.nav-letras:hover{    
+    fill:white;
+
+}
+#barra-conjunto{
+    width: 70%;
+    height: 52px;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#imagen-div{
+    position: fixed;    
+    height: 52px;
+    width: 52px;
+    background-color:transparent;
+}
+
+#imagen-div img{
+    
+    height: 32.6px;
+    width: 32.6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    
+}
+
+
+#form{
+    position: fixed;
+    width:290px;
+    height: 52px; /*34*/
+    background-color: transparent;  
+     margin-left: 60px;
+}
+
+#txt-buscar{
+    font-size: medium;
+    border: none;
+    height: 34px;
+    width: 280px; 
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #e1e9ee;
+    padding: 10px;
+}
 
 
 
