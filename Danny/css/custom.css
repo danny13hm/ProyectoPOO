@@ -1,0 +1,33 @@
+#card{
+    background-color: white;
+    margin-top:55px;
+
+}
+
+#ul-main{
+    margin-left: auto;
+    margin-left: auto;
+    list-style: none;  
+    margin: 0; 
+    padding: 0; 
+    
+    
+}
+
+#ul-main li{
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#main{
+    height: 215%;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.card:hover{
+    background-color: black;
+}
