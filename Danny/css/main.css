@@ -71,9 +71,12 @@ body{
     border-bottom-color: white;
 }
 
-.iconos:hover,.nav-letras:hover{    
+.iconos:hover{    
     fill:white;
 
+}
+.nav-letras:hover{
+    color:white;
 }
 #barra-conjunto{
     width: 70%;
