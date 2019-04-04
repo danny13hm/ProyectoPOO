@@ -93,7 +93,7 @@ body{
     color:white;
 }
 #barra-conjunto{
-    width: 70%;
+    width: 100%;
     height: 52px;
     background-color: transparent;
     margin-left: auto;
@@ -150,6 +150,23 @@ body{
     
 }
 
+@media only screen and (min-width: 750px){
+    #barra{
+        width:100% !important;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    #barra-conjunto{
+        width: 100%;
+    }
+    .card{
+        width: 150px;
+    }
+    #main{
+        width: 100%;
+        margin:0;
+    }
+}
 
 
 

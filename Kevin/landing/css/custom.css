@@ -1,0 +1,74 @@
+    img{
+    border-style: none;
+    height: 28px;
+    width: 28px;
+    }
+    .navbar{
+    background-color: #283e4a;
+    height: 46px;
+    border-top: none;
+    padding: 0 60px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: auto;
+    }
+    .search-container input{
+    font-size: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 2px;
+    padding: 0 8px 0 28px;
+    line-height: 1;
+    color: #283e4a;
+    height: 30px;
+    background-color:#e1e9ee; 
+    }
+    .search-container{
+        margin-left: 10px;
+        width: 300px;
+    }
+    .nav-item{
+        width: 60px;
+        color:white;
+        cursor: pointer;
+    }
+    .heat-icon:hover #cube{
+        color:white;
+        fill:white;
+    }
+    
+    .nav-item__icon{
+        color: rgba(174, 177, 189, 0.925);
+    }
+    .nav-item__icon2{
+        color: white;
+    }
+    .nav-icon{
+        fill:transparent;
+    }
+    .nav-items-container{
+        justify-items: center;
+    }
+    .heat-icon{
+        align-content: center;
+        padding: 3px 0px 0px 20px;
+        margin-bottom: 8px;
+    }
+    .text-icon-nav{
+        height: 10px;
+        text-align: center;
+        color:rgba(174, 177, 189, 0.925);
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .text-icon{
+        margin-top: -15px;
+        padding: 0 0 0 20px;
+    }
+    .nav-icon2{
+        fill:white;
+    }
+    #mynetwork-tab-icon:hover{
+        color:white;
+    }
