@@ -14,7 +14,7 @@
    
 </head>
 
-<body>   
+<body style="background-color: #F5F5F5;">   
 
     <div id="barra">  
         <div id="barra-conjunto">
@@ -256,9 +256,9 @@
         </div>
     </div>
 
-    
     <div id="div-main">
-            <div id="main"> 
+            <div id="main">
+                    <div id="message-welcome">Usuario, ponte en marcha con LinkedIn en 3 pasos:</div> 
             <ul id="ul-main">
             <li>    
             <div class="card" style="width: 18rem;" >
@@ -295,7 +295,178 @@
             </li>            
           </ul> 
           </div> 
-    </div> 
+    </div>
+    <div class="container">
+        <div class="row">
+            <aside id="left">
+                <div>
+                    <div id="fondoProfile">
+                        <span id="image-profile">
+                            <img src="img/camera-icon2.png">
+                        </span>
+                    </div>
+                    <div id="cajaProfile">
+                        <h1> Te Damos la Bienvenida, Usuario + Segundo Nombre</h1>
+                        <a href="#">Añade una foto</a>
+                    </div>
+                    <div id="contactProfile">
+                        <a href="#">Contacto       N<br>Amplia tu Red</a>
+                    </div>
+                    <div id="premiumAviso">
+                        <p>Accede a información y herramientas exclusivas</p>
+                        <a href="#">Probar Premium gratis durante 1 mes</a>
+                    </div>
+                
+                </div>
+                <div>
+                    <div id="gruposSidebar">
+                        <div id="grupos1">
+                            <a href="#">Grupos</a>
+                        </div>
+                        <div id="gruposHashtag">
+                                <a href="#">Hashtags seguidos</a>
+                            </div>
+                        <div id="descubrir">
+                                <a href="#">Descubrir más</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <section id="content">
+                <div>
+                    <div class="share-box__wrapper">
+                        <div class="display-flex">
+                            <button class="share-box__open">
+                                <li-icon type="compose-icon">
+                                        <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon" focusable="false">
+                                            <path d="M17,13.75l2-2V20a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V6A1,1,0,0,1,4,5h8.25l-2,2H5V19H17V13.75Zm5-8a1,1,0,0,1-.29.74L13.15,15,7,17l2-6.15,8.55-8.55a1,1,0,0,1,1.41,0L21.71,5A1,1,0,0,1,22,5.71ZM17.93,7.58l-1.5-1.5-6.06,6.06,1.5,1.5Zm1.84-1.84-1.5-1.5L17.09,5.41l1.5,1.5Z" 
+                                            class="large-icon" style="fill: currentColor"></path></svg>
+                                </li-icon>Comienza una publicación
+                            </button>
+                            <div class="share-box__trigger">
+                                <button class="share-media-button__label display-flex">
+                                    <li-icon type="camera-icon">
+                                            <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon" focusable="false">
+                                                <path d="M21,6H18L16.5,3h-9L6,6H3A1,1,0,0,0,2,7V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V7A1,1,0,0,0,21,6ZM7.36,8l1.5-3h6.28l1.5,3H20v2H16.58a5,5,0,0,0-9.16,0H4V8H7.36Zm7.76,4A3.13,3.13,0,1,1,12,8.88,3.13,3.13,0,0,1,15.13,12ZM4,18V11H7.1a5,5,0,1,0,9.8,0H20v7H4Z"
+                                                 class="large-icon" style="fill: currentColor"></path></svg>
+                                    </li-icon>
+                                </button>
+                            </div>
+                            <div class="share-box__trigger">
+                                <button id="box-flex-video"class="share-media-button__label display-flex">
+                                    <li-icon type="video-camera-icon">
+                                            <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon" focusable="false">
+                                                <path d="M21,5.92a1,1,0,0,0-.57.18L17,8.5V7a1,1,0,0,0-1-1H3A1,1,0,0,0,2,7V17a1,1,0,0,0,1,1H16a1,1,0,0,0,1-1V15.5l3.43,2.4a1,1,0,0,0,.57.18,1,1,0,0,0,1-1V6.92A1,1,0,0,0,21,5.92ZM15,16H4V8H15v8Zm2-5.21,3-2.1v6.62l-3-2.1V10.79Z"
+                                                 class="large-icon" style="fill: currentColor"></path></svg>
+                                    </li-icon>
+                                </button>
+                            </div>
+                            <div class="share-box__trigger">
+                                    <button id="box-flex-video"class="share-media-button__label display-flex">
+                                        <li-icon type="document-icon">
+                                                <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon" focusable="false">
+                                                    <path d="M14.13,2H5A1,1,0,0,0,4,3V21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1V7.88ZM18,20H6V4h7V9h5V20ZM8,12h8v1H8V12Zm0,3h6v1H8V15Z" 
+                                                    class="large-icon" style="fill: currentColor"></path></svg>
+                                        </li-icon>
+                                    </button>
+                            </div>
+                        </div>
+                        <div class="share-box">
+                            <a href="#">Escribe un articulo </a>en LinkedIn
+                        </div>
+                    </div>
+                </div>
+                <div class="ember-view">
+                    <span id="ember50" class="ember-view"></span>
+                      <div class="text-align-center">
+                        <button class="artdeco-button">
+                          Ver nuevas publicaciones
+                        </button>
+                      </div>
+                </div>
+                <div class="feed-news">
+                    <div class="feed-shared-update-v12">
+                        <div class="display-flex2">
+                            <div class="display-flex3">
+                                <div class="display-flex4">
+                                    <img class="image-news-profile" src="img/example-profile-image.png">
+                                </div>
+                               <div class="feed-shared-actor__meta">
+                                    <h3 class="feed-shared-actor__title">
+                                        <span class="feed-shared-actor__name">
+                                            <a href="#">LinkedIn Marketing Solutions</a>
+                                        </span>
+                                    </h3>
+                                    <span class="feed-shared-actor__description">
+                                        <div id="followers">
+                                            <span>2.064.905 seguidores</span>                                            <span></span>
+                                        </div>
+                                    </span>
+                                    <span class="feed-shared-actor__sub-description">
+                                        <div class="feed-shared-text-view">
+                                            <span>Promocionado</span>
+                                        </div>
+                                    </span>
+                               </div>
+                            </div>
+                            <button class="feed-shared-actor__follow-button display-flex">
+                                <li-icon type="plus-icon">
+                                        <svg  class="icon-plus"viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon" focusable="false">
+                                            <path d="M14,9H9v5H7V9H2V7H7V2H9V7h5V9Z" class="small-icon icon-plus" style="fill-opacity: 1">
+                                        </path></svg>Seguir
+                                </li-icon>
+                            </button>
+                            <div class="feed-shared-update-v2__control-menu">
+                                <artdeco-dropdown  type="select"class="ember-view">
+                                        <artdeco-dropdown-trigger role="button" placement="buttom">
+                                            <li-icon type="ellipsis-horizontal-icon "role="img">
+                                                    <svg id="points"viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet" class="artdeco-icon" focusable="false">
+                                                        <path d="M2,10H6v4H2V10Zm8,4h4V10H10v4Zm8-4v4h4V10H18Z" class="large-icon" style="fill: currentColor">
+                                                    </path></svg>
+                                            </li-icon>
+                                        </artdeco-dropdown-trigger>
+                                </artdeco-dropdown>
+                            </div>
+                        </div>
+                            <div class="feed-shared-update-v2__description-wrapper">
+                                <div class="feed-shared-update-v2__description">
+                                    <span id="coments">
+                                            Get noticed with LinkedIn Premium. Members typically get new jobs twice as fast.
+                                             Start your free trial today. https://lnkd.in/gRgWrH9
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="image-main">
+                                <img src="img/image-prueba.jpg">
+                            </div>
+                    
+                    </div>
+                </div>
+
+            </section>
+            <aside id="right">
+                <div>
+                    <div id="box">
+                        <div id="publicidad">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div id="informationLinkedin">
+                        <a href="#">Acerca de</a>
+                        <a href="#">Centro de Ayuda</a><br>
+                        <a href="#">Privacidad y terminos</a>
+                        <a href="#">Publicidad</a><br>
+                        <a href="#">Servicios Empresariales</a><br>
+                        <a href="#">Descarga la aplicación de LinkedIn</a>
+                        <a href="#">Más</a>
+                        <p><img src="img/logo.png">LinkedIn Corporation © 2019</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <footer>
+    </footer>
     <script src="js/jquery-3.3.1.min.js"></script>  
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     
